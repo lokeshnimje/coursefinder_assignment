@@ -1,0 +1,44 @@
+
+.home-top-section{
+    max-width: 60% ;
+    margin: auto;
+    color: white;
+}
+.hometop{
+    background-image: url('../image/homeBg.png');
+    height: 85vh;
+    display : flex;
+    align-items: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.enquire-button{
+    background-image: linear-gradient(to left, #FF6A56 , #FDAF4D);
+    padding: 14px 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
+@media(max-width:990px){ 
+    .home-top-section{
+        max-width: 80% ;
+        margin: auto;
+        color: white;
+    }
+    .hometop{
+        background-image: url('../image/homeBgSmall.png');
+        height: 80vh;
+        display : flex;
+        align-items: center;
+        justify-content: center; 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+

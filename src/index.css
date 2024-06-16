@@ -1,1 +1,27 @@
-CourseFinder_Project/Coursefinder_project/src/index.css
+@font-face {
+  font-family: 'Buenos Aires Trial';
+  src: url('./BuenosAires-Light.ttf') format('truetype');
+  src: url('./BuenosAires-Light.woff') format('truetype');
+  src: url('./BuenosAires-Light.woff2') format('truetype'); 
+}
+ 
+body {
+  margin: 0; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0; 
+  font-family: 'Buenos Aires Trial', sans-serif;
+}
+ 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

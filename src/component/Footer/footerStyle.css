@@ -1,0 +1,87 @@
+.footer{
+    height: 300px;
+  background-image: url('../image/footerBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  }
+  .footer-title{
+    font-size:38px;
+    font-weight: 600;
+    line-height: 45px;
+    color: white;
+    margin: 40px auto;
+  }
+  .footer-form{
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .footer-input-box{
+    /* width: 31%; */
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .input-container {
+    position: relative;
+    /* width: 33%;  */
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .dropdown-icon {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    font-size: 12px; 
+    cursor: pointer;
+  }
+  .subscribe-button{
+    background-image: linear-gradient(to left, #FF6A56 , #FDAF4D);
+    padding: 14px 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    margin-left: 15px;
+    text-wrap: nowrap;
+}
+
+@media(max-width:765px){
+  .footer{
+    height: 550px;
+  background-image: url('../image/footerBgSmall.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  }
+  .footer-input-box{
+    width: 90%;
+  }
+  .input-container{
+    width: 100%;
+  }
+  .subscribe-button{
+    width: 100%;
+  }
+  .footer-title{
+    width: 90%;
+    margin: 50px  auto;
+
+  }
+}

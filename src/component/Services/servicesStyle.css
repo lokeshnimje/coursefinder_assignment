@@ -1,0 +1,98 @@
+ 
+  .link-btn{
+    display: flex;
+    align-items: center;
+    color: #FF7361;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .services {
+    max-width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    row-gap: 0px;
+    column-gap: 50px;
+    /* gap: 50px ; */
+  }
+  .services-text {
+    max-width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 48% 53%;
+    gap: 2%;
+    align-items: center;
+    text-align: start;
+  }
+  .service-tab {
+    width: 95%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px; 
+    border-radius:8px;
+    cursor: pointer;
+    text-align: left; 
+  }
+  
+  .star-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    font-size: 14px;
+ 
+  }
+  .enquire-button{
+    background-image: linear-gradient(to left, #FF6A56 , #FDAF4D);
+    padding: 14px 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  }
+
+  @media(max-width: 990px){
+    .services {
+      min-width: 90%; 
+      display: grid;
+      grid-template-columns: 100%;
+      gap: 0px;
+ 
+    }
+    .service-tab {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 15px;
+      border-radius:8px;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .services-text {
+      max-width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 100%;
+      gap: 2%;
+      align-items: center;
+      text-align: start;
+    }
+  }
+  

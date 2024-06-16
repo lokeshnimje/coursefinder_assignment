@@ -1,0 +1,83 @@
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    height:250px;
+    padding: 10px;
+  }
+  .heading{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .testimonial-section{
+    max-width: 95%;
+    margin: auto;
+}
+
+.testimonial-card:nth-child(2) {
+  margin-top: 100px !important; /* Adjust margin-top as needed */
+}  
+.react-multi-carousel-dot-list {
+  position: absolute;
+  bottom: 0px !important; 
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+ 
+
+ 
+  .react-multi-carousel-dot button {
+    display: inline-block;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    opacity: 1;
+    padding: 5px 5px 5px 5px;
+    box-shadow: none;
+    transition: background .5s;
+    border-width: 0px !important; 
+    padding: 0;
+    margin: 0;
+    margin-right: 6px;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgba(44,44,44,0.5);
+}
+
+.react-multi-carousel-dot  .react-multi-carousel-dot--active{
+  display: inline-block;
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+    opacity: 1;
+    padding: 5px 5px 5px 5px;
+    box-shadow: none;
+    border-width: 0px !important; 
+    padding: 0;
+    margin: 0;
+    margin-right: 6px;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgba(44,44,44);
+}
+ 
+
+.react-multiple-carousel__arrow--left{
+  left: calc(0% + 1px) !important;
+  z-index: 1 !important;
+}
+
+.react-multiple-carousel__arrow--right{
+  right: calc(0% + 1px) !important;
+  z-index: 1 !important;
+
+}

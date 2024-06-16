@@ -1,0 +1,77 @@
+ 
+.cityPc {
+    max-width: 960px;
+    display: grid;
+    margin: auto;
+    column-gap: 25px;
+    row-gap: 15px;
+    height: 470px;
+    grid-template-areas: "sideBox topBox"
+                        "sideBox bottomBox"
+  }
+  #box1{
+    grid-area: topBox;
+  }
+  #box2{
+    grid-area: bottomBox;
+  }
+  #bigBox{
+    grid-area: sideBox;
+  }
+  .city1{
+   margin-top: 10px;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .city2{
+      display: flex;
+      margin-top:10px ;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  }
+  
+  .link-btn{
+    display: flex;
+    align-items: center;
+    color: #FF7361;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .city-date{
+    font-size: 12px;
+    /* line-height: 30px; */
+    color: #226CF5;
+  }
+  .text-2 { 
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    color: #64647A;
+    line-height:22px; 
+    font-size: 15px;
+  }  
+  .cityMobile{
+    display: none;
+  }
+
+  @media(max-width:990px){
+    .cityPc{
+      display: none;
+    }
+    .cityMobile{
+     display: block;
+    }
+    .cityM1{
+      min-width: 320px !important;  
+      border-radius: 10px; 
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin:  20px auto;
+    }
+  }
