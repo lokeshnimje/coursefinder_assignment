@@ -114,7 +114,7 @@ const Webinars = () => {
             <div>
               <div style={{ width: "100%" }}>
                 <img
-                  src={require("../image/city2.jpg")}
+                  src={require("../image/city.jpg")}
                   style={{ width: "100%", height: "180px", objectFit: "cover", borderRadius:'15px 15px 0 0' }}
                   alt=""
                 />
@@ -148,7 +148,7 @@ const Webinars = () => {
             <div>
               <div style={{ width: "100%" }}>
                 <img
-                  src={require("../image/city.jpg")}
+                  src={require("../image/city2.jpg")}
                   style={{ width: "100%", height: "180px", objectFit: "cover", borderRadius:'15px 15px 0 0' }}
                   alt=""
                 />
@@ -182,7 +182,7 @@ const Webinars = () => {
             <div>
               <div style={{ width: "100%" }}>
                 <img
-                  src={require("../image/city.jpg")}
+                  src={require("../image/city3.png")}
                   style={{ width: "100%", height: "180px", objectFit: "cover",borderRadius:'15px 15px 0 0 ' }}
                   alt=""
                 />
