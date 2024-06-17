@@ -6,7 +6,6 @@ const Steps = () => {
   const steps = [
     require("../image/step.png"),
     require("../image/step2.png"),
-    // Add more steps as needed
   ];
 
   const [currentStep, setCurrentStep] = useState(0);
@@ -44,7 +43,6 @@ const Steps = () => {
             />
             <div className="step-number step-2">{(currentStep + 2) % steps.length || steps.length}</div>
           </div>
-          <div className="fadedBox"></div>
         </div>
       </div>
       <div className="navigation-buttons">
