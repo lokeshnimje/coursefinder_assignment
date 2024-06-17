@@ -5,7 +5,7 @@ import { PiStarFourFill } from "react-icons/pi";
 
 const LatestUpdates = () => {
   return (
-    <div  >
+    <div className='box'>
       <br />
       <h1>Latest KC Updates</h1>
 
@@ -16,7 +16,7 @@ const LatestUpdates = () => {
               <h1 style={{ fontWeight: '600', fontSize: '35px', }}>We’re Hiring!</h1>
               <p style={{ fontSize: '16px', width: '66%' }}>KC continues recruitments for its offices across India and Asia even during the unprecedented times of Covid.</p>
             </div>
-            <div style={{ padding: '20px', }}>
+            <div style={{ padding: '20px'}}>
               <button className="apply-btn">Apply now</button>
             </div>
           </div>

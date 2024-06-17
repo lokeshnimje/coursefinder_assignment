@@ -1,15 +1,15 @@
 .footer{
-    height: 300px;
+  height: 320px;
   background-image: url('../image/footerBg.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   }
   .footer-title{
-    font-size:38px;
+    font-size:34px;
     font-weight: 600;
     line-height: 45px;
     color: white;
-    margin: 40px auto;
+    margin: 50px auto;
   }
   .footer-form{
     width: 90%;
@@ -78,10 +78,18 @@
   }
   .subscribe-button{
     width: 100%;
+    margin-left: 0;
   }
   .footer-title{
     width: 90%;
     margin: 50px  auto;
 
+  }
+  .footer-form{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .dropdown-icon {
+    right: 15px;
   }
 }

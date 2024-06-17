@@ -27,14 +27,14 @@ const Steps = () => {
     <div className="steps-container">
       <div style={{ width: '85%', margin: 'auto' }}>
 
-        <h2>7 Easy Steps to Land in your Dream University</h2>
+        <h1>7 Easy Steps to Land in your Dream University</h1>
       </div>
       <div class='mainSlider'>
         <div className="slider">
           <div className="slide current-slide">
             <br />
             <img src={steps[currentStep]} alt={`slider${currentStep}`} />
-            <div className="step-number">{currentStep + 1}</div>
+            <div className="step-number step-1">{currentStep + 1}</div>
           </div>
           <div className="slide next-slide">
             <br />
@@ -43,7 +43,7 @@ const Steps = () => {
               src={steps[(currentStep + 1) % steps.length]}
               alt={`slider${(currentStep + 1) % steps.length}`}
             />
-            <div className="step-number">{(currentStep + 2) % steps.length || steps.length}</div>
+            <div className="step-number step-2">{(currentStep + 2) % steps.length || steps.length}</div>
           </div>
           <div className="fadedBox"></div>
         </div>

@@ -1,7 +1,7 @@
 .testimonial-card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-align: start;
     height:250px;
     padding: 10px;
@@ -17,7 +17,7 @@
 }
 
 .testimonial-card:nth-child(2) {
-  margin-top: 100px !important; /* Adjust margin-top as needed */
+  margin-top: 100px !important;
 }  
 .react-multi-carousel-dot-list {
   position: absolute;
@@ -79,5 +79,10 @@
 .react-multiple-carousel__arrow--right{
   right: calc(0% + 1px) !important;
   z-index: 1 !important;
-
+}
+.react-multiple-carousel__arrow{
+  background-color: white !important;
+}
+.react-multiple-carousel__arrow::before{
+  color: black !important;
 }

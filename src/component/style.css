@@ -32,7 +32,7 @@
   display: none;
 }
 .navigationBtn{
-  padding: 2px 12px;
+  padding: 2px 20px;
   background: transparent;
   color: white;
   border-radius: 8px;
@@ -40,8 +40,8 @@
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
-  /* width: 160px;
-  height: 48px; */
+  height: 48px;
+  /* width: 160px; */
 }
 
  

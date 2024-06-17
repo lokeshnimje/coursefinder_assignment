@@ -4,8 +4,8 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 
 const Webinars = () => {
   return (
-    <div>
-      <h2>Webinars & Events</h2>
+    <div style={{paddingTop:'50px'}}>
+      <h1>Webinars & Events</h1>
       <div className="cityPc">
         <div className="city1" id="bigBox">
           <div>

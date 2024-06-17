@@ -38,17 +38,20 @@
   }
   .apply-btn{
     background-color: white;
-    padding: 14px 20px;
+    padding: 14px 25px;
     color: #FF7361;
     border-radius: 8px;
     border: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     width: fit-content;
-    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Buenos Aires Trial', sans-serif;
   }
-
+.box{
+  padding: 30px;
+}
   @media(max-width:990px){
     .latest-updates-container{
       width: 90%;
@@ -64,6 +67,12 @@
       height: 100%;
       box-shadow: -5px 4px 50px rgba(0, 0, 0, 0.1); 
       margin: 25px auto;
+    }
+    .apply-btn{
+      width: 100%;
+    }
+    .box{
+      padding: 30px 5px;
     }
   }
   

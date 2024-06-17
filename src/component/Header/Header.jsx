@@ -23,21 +23,9 @@ const Header = () => {
           aspirations in eminent universities globally and we welcome you to
           pursue yours!
         </p>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "20px",
-            flexWrap: "wrap",
-            margin: "auto",
-            width: "fit-content",
-            marginTop: "30px",
-            alignItems:'center'
-            ,justifyContent:'center'
-          }}
-        >
+        <div className='actionButtonsContainer'>
           <button className="enquire-button">Enquire Now</button>
-          <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+          <div className='branchButton'>
             <PiCaretCircleDownFill
               style={{ fontSize: "55px", cursor: "pointer" }}
             />

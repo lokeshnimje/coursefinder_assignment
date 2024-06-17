@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div >
         <div>
-        <h2 >Services we provide</h2>
+        <h1 >Services we provide</h1>
         <div className="services">
           {/* <div> */}
             <div className="service-tab">
@@ -118,7 +118,7 @@ const Services = () => {
         </div>
 
         <div style={{ margin: "25px auto" }}>
-          <button className="enquire-button">Enquire Now</button>
+          <button className="enquire-button-service">Enquire Now</button>
         </div>
       </div>
 
@@ -128,12 +128,12 @@ const Services = () => {
         </div>
         <div style={{ alignItems: "center", padding: "25px" }}>
           <div style={{ textAlign: "start", margin: "auto" }}>
-            <p style={{ fontSize: "26px", fontWeight: "600" }}>
+            <p style={{ fontSize: "26px", fontWeight: "700" }}>
               Realize your global ambitions with us
             </p>
             <p style={{ lineHeight: "22px", fontSize: "15px" }}>
               With a keen ear for your choices and preferences, our counselling
-              experience is so seamless that you will land in your dream <br />
+              experience is so seamless that you will land in your dream
               university even before you do!
             </p>
             <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>

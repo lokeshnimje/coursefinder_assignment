@@ -38,6 +38,7 @@
     border-radius:8px;
     cursor: pointer;
     text-align: left; 
+    font-weight: 900;
   }
   
   .star-icon{
@@ -52,7 +53,7 @@
     font-size: 14px;
  
   }
-  .enquire-button{
+  .enquire-button-service{
     background-image: linear-gradient(to left, #FF6A56 , #FDAF4D);
     padding: 14px 25px;
     color: white;

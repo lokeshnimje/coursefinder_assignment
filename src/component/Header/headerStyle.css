@@ -24,21 +24,49 @@
     cursor: pointer;
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
 }
-
+.actionButtonsContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+.branchButton{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 10px;
+}
 @media(max-width:990px){ 
     .home-top-section{
-        max-width: 80% ;
+        max-width: 90% ;
         margin: auto;
         color: white;
     }
     .hometop{
         background-image: url('../image/homeBgSmall.png');
-        height: 90vh;
+        height: 85vh;
         display : flex;
         align-items: center;
         justify-content: center; 
         background-repeat: no-repeat;
         background-size: 100% 100%;
+    }
+    .actionButtonsContainer{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+    .enquire-button{
+        width: 100%;
+    }
+    .branchButton{
+        gap: 0;
     }
 }
 
