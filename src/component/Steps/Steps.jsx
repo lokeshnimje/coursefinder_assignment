@@ -25,8 +25,7 @@ const Steps = () => {
 
   return (
     <div className="steps-container">
-      <div style={{ width: '85%', margin: 'auto' }}>
-
+      <div className="title">
         <h1>7 Easy Steps to Land in your Dream University</h1>
       </div>
       <div class='mainSlider'>

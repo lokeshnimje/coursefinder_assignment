@@ -99,7 +99,10 @@
     cursor: pointer;
     font-size: 15px;
   }
-  
+  .title{
+    width: 85%;
+    margin: auto;
+  }
   @media (max-width: 768px) {
    
     .slider {
@@ -150,6 +153,9 @@
     }
     .mainSlider{
       width: 100%; 
+    }
+    .title{
+      width: 100%;
     }
   }
   
